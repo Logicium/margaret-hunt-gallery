@@ -1,0 +1,112 @@
+const data = {
+
+    aboutEvent:"Explore the boundary-breaking journey of prolific artist Margaret Hunt in a landmark retrospective exhibition. Witness a lifetime dedicated to fearless creation across diverse mediums.",
+
+    artPieces: [
+        {
+            title: "Art as Activism", // Kept your title
+            desc: "Bold acrylics clash and merge with fragments of newspaper headlines, transforming current events into a visceral call for awareness. This piece asks, 'If art cannot speak truth to power, what force remains?' It's a dialogue between the artist's hand and the pulse of the world.",
+            medium: "Acrylic and Newspaper Collage on Canvas",
+            tags: "activism, protest, collage, acrylic, newspaper, political, social commentary, abstract, contemporary",
+            date: "2018",
+            image: "/images/art/art1.jpg",
+        },
+        {
+            title: "Whispers of Serendipity",
+            desc: "Layers of translucent encaustic veil and reveal unexpected color harmonies, mimicking the way meaning emerges from chance encounters. Subtle shifts suggest hidden patterns just below the surface. It captures that feeling of 'Was this coincidence, or connection?'",
+            medium: "Encaustic and Pigment Stick on Wood Panel",
+            tags: "serendipity, synchronicity, abstract, encaustic, wax, texture, layers, subtle, spiritual, connection",
+            date: "2020",
+            image: "/images/art/art2.jpg",
+        },
+        {
+            title: "Empowered Fragments",
+            desc: "Torn magazine images and resilient acrylic textures converge, building a new whole stronger and more complex than its original parts. This piece celebrates the power found in reclaiming disparate pieces of one's story. As Hunt says, 'We are all mosaics in progress.'",
+            medium: "Mixed Media Collage (Magazine, Acrylic) on Board",
+            tags: "empowerment, collage, mixed media, texture, abstract, feminist, resilience, narrative, fragments",
+            date: "2015",
+            image: "/images/art/art3.jpg",
+        },
+        {
+            title: "Silent March",
+            desc: "Though abstract, stark vertical forms rendered in deep, resonant acrylics evoke a sense of collective movement and quiet determination. It's a tribute to the unspoken power of solidarity. The weight of the moment is felt in the density of the paint.",
+            medium: "Acrylic Impasto on Canvas",
+            tags: "protest, activism, abstract, acrylic, texture, impasto, vertical, solidarity, contemporary, minimal",
+            date: "2019",
+            image: "/images/art/art4.jpg",
+        },
+        {
+            title: "Synchronous Bloom",
+            desc: "Unexpected connections align like petals suspended and unfolding within layers of warm wax. Found botanicals embedded within speak to the surprising beauty revealed in moments of perfect, unplanned timing. Nature's serendipity meets the artist's intention.",
+            medium: "Encaustic, Dried Botanicals, and Acrylic on Wood Panel",
+            tags: "synchronicity, serendipity, encaustic, wax, botanicals, mixed media, abstract, nature, beauty, connection, texture",
+            date: "2021",
+            image: "/images/art/art5.jpg",
+        },
+        {
+            title: "Layered Histories",
+            desc: "Thick impasto and scraped-back encaustic reveal glimpses of buried text and obscured imagery, echoing how personal and collective histories overlay and inform the present. 'We build upon the foundations left behind,' the textures seem to whisper.",
+            medium: "Acrylic, Encaustic, and Found Paper Collage on Panel",
+            tags: "history, memory, layers, texture, abstract, mixed media, acrylic, encaustic, found objects, narrative, palimpsest",
+            date: "2016",
+            image: "/images/art/art6.jpg",
+        },
+        {
+            title: "Rising Voice",
+            desc: "Jagged forms and vibrant acrylic colors burst through muted, textured backgrounds, representing the emergence of a powerful voice against suppression. It's a visual shout, demanding to be seen and heard in its own right. The energy is palpable.",
+            medium: "Acrylic and Multimedia Collage on Canvas",
+            tags: "empowerment, protest, voice, abstract, collage, mixed media, acrylic, vibrant, contemporary, energy",
+            date: "2022",
+            image: "/images/art/art7.jpg",
+        },
+        {
+            title: "Chance Configuration",
+            desc: "Found metal objects, perhaps discarded and overlooked, find surprising harmony nestled within the smooth, luminous encaustic surface. This piece explores the accidental beauty born from juxtaposing disparate elements. It's a quiet nod to kismet and potential.",
+            medium: "Encaustic and Found Metal Objects on Wood Panel",
+            tags: "serendipity, chance, abstract, encaustic, wax, found objects, metal, mixed media, texture, harmony, industrial",
+            date: "2017",
+            image: "/images/art/art8.jpg",
+        },
+        { // Start of new entries
+            title: "Woven Resistance",
+            desc: "Threads of resistance are literally integrated into the fabric of this piece, bound by layers of wax and gestural paint strokes. It speaks to the enduring strength found in collective action and shared struggle. Each thread contributes to the whole.",
+            medium: "Acrylic, Fabric Scraps, and Encaustic on Panel",
+            tags: "resistance, protest, empowerment, mixed media, fabric, encaustic, acrylic, texture, abstract, community, woven",
+            date: "2014",
+            image: "/images/art/art9.jpg",
+        },
+        {
+            title: "Echoes of Truth",
+            desc: "Faded photographs and fragmented newsprint whisper stories beneath veils of acrylic and wax. The work confronts the way 'official' truth can be obscured or manipulated, yet still resonates. History leaves echoes, if we listen.",
+            medium: "Multimedia Collage (Newspaper, Photos), Acrylic, Encaustic",
+            tags: "truth, history, activism, collage, mixed media, newspaper, photography, abstract, memory, political, layers",
+            date: "2019",
+            image: "/images/art/art10.jpg",
+        },
+        {
+            title: "Serendipity's Map",
+            desc: "Ink lines trace unpredictable paths across a luminous wax landscape, suggesting a map drawn by chance encounters and fortunate discoveries. It celebrates the beauty of life's unplanned detours and intuitive navigation. Where will chance lead next?",
+            medium: "Encaustic and Ink Transfer on Wood Panel",
+            tags: "serendipity, synchronicity, map, journey, abstract, encaustic, wax, ink transfer, lines, spiritual, navigation",
+            date: "2023",
+            image: "/images/art/art11.jpg",
+        },
+        {
+            title: "Unbound",
+            desc: "Thick, energetic strokes of acrylic seem to break free from unseen constraints, partially covered by defiant gestures in wax. This piece is a visceral expression of liberation and shedding limitations. As the artist notes, 'To be unbound is to be truly alive.'",
+            medium: "Acrylic Impasto and Encaustic on Canvas",
+            tags: "empowerment, liberation, freedom, abstract, acrylic, impasto, encaustic, texture, bold, energy, expressive",
+            date: "2020",
+            image: "/images/art/art12.jpg",
+        },
+        {
+            title: "Fragmented Headlines II", // Adding II to differentiate if needed later
+            desc: "Building on earlier themes, news headlines are intentionally fractured and reassembled, creating a disjointed yet potent commentary on media narratives. Layers of wax selectively obscure and highlight, urging a closer, critical look at the information we consume.",
+            medium: "Newspaper Collage, Acrylic, and Encaustic on Panel",
+            tags: "protest, activism, media, social commentary, collage, newspaper, acrylic, encaustic, abstract, political, fragments, information",
+            date: "2021",
+            image: "/images/art/art13.jpg",
+        },
+    ]
+}
+export default data;

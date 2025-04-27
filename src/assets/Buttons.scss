@@ -1,0 +1,13 @@
+@import "Fonts";
+
+.button{
+  background-color: black;
+  width: fit-content;
+  height: 45px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: $padding;
+  cursor: pointer;
+}

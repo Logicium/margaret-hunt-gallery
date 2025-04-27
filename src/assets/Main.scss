@@ -1,0 +1,34 @@
+@import './base.css';
+@import "Library";
+
+#app {
+  color: black;
+  background-color: white;
+  font-family: "Public Sans", sans-serif;
+  font-size: $fontNormal;
+}
+
+a {
+  color: black;
+}
+
+
+.bold{
+  font-weight: 600;
+}
+
+.header{
+  font-size: $fontBig;
+  line-height: calc(4px + $fontBig);
+  font-weight: 600;
+}
+
+.title{
+  font-size: $fontMed;
+  font-weight: 600;
+}
+
+.image{
+  background-position: center;
+  background-size: cover;
+}
