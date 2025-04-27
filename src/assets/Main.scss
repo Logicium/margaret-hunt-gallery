@@ -10,8 +10,16 @@
 
 a {
   color: black;
+  text-decoration: none;
 }
 
+.small{
+  font-size: $fontSmall;
+}
+
+big{
+  font-size: $fontBig;
+}
 
 .bold{
   font-weight: 600;
@@ -21,6 +29,10 @@ a {
   font-size: $fontBig;
   line-height: calc(4px + $fontBig);
   font-weight: 600;
+}
+
+.gap{
+  margin-right: $padding;
 }
 
 .title{

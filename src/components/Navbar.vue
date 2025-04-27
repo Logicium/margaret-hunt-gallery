@@ -10,7 +10,7 @@ import SearchIcon from "@/assets/icons/SearchIcon.vue";
       <div class="line"></div>
       <div class="line"></div>
     </div>
-    <div class="header">MARGARET HUNT GALLERY</div>
+    <RouterLink to="/"><div class="title">MARGARET HUNT GALLERY</div></RouterLink>
     <div class="search"><SearchIcon/></div>
   </nav>
 
@@ -35,7 +35,14 @@ nav{
   text-align: center;
 }
 
+.title{
+  align-self: center;
+  text-align: center;
+  cursor: pointer;
+}
+
 .navMenu{
+  align-self: center;
   display: flex;
   flex-direction: column;
   width: 45px;
@@ -45,6 +52,7 @@ nav{
 }
 
 .search{
+  align-self: center;
   margin-left: auto;
   cursor: pointer;
 }

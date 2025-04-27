@@ -2,8 +2,9 @@
 
 
 import data from "../data/data.ts";
-import InteractiveImageCard from "@/components/InteractiveImageCard.vue";
+import InteractiveImageCard from "@/components/cards/InteractiveImageCard.vue";
 import {computed} from "vue";
+import ArrowIcon from "@/assets/icons/ArrowIcon.vue";
 const allImageUrls = computed(() => data.artPieces.map(art => art.image)).value;
 
 // Shuffles an array in place and returns it (or modify to return a new array)
@@ -57,12 +58,17 @@ const displayedArtPieces = data.artPieces.slice(0, numberOfCards).map((art, inde
     />
     <div class="card">
       <div>
-        <div class="title">MARGARET HUNT "RETROSPECTIVE"</div>
-        <div class="bold">Opening: May 9th from 5-8pm</div>
-        <div class="bold">221 B Gallery | 221 Nona Ave</div>
+        <div class="header">MARGARET HUNT "RETROSPECTIVE"</div>
+        <div class="small">Trinidad, Colorado</div>
+        <div class="small">221 B Gallery | 221 Nona Ave</div>
+        <div class="title">May 9th from 5-8pm</div>
       </div>
-      <div class="desc">{{data.aboutEvent}}</div>
-      <RouterLink to="/event"><div class="button">Learn More</div></RouterLink>
+      <div class="desc"></div>
+      <div class="buttons">
+        <RouterLink to="/event"><div class="button ghost gap">Learn More</div></RouterLink>
+        <RouterLink to="/gallery"><div class="button empty">Explore Gallery<ArrowIcon class="icon"/></div></RouterLink>
+      </div>
+
     </div>
 
   </div>
@@ -74,12 +80,23 @@ const displayedArtPieces = data.artPieces.slice(0, numberOfCards).map((art, inde
 
 @import "../assets/Library";
 
+.buttons{
+  display: flex;
+}
+
 .card{
   display: flex;
   grid-column: span 2;
   flex-direction: column;
   justify-content: space-between;
   white-space: break-spaces;
+  animation: fadein 1s forwards;
+  opacity: 0;
+  animation-delay: 3.5s;
+}
+
+.icon{
+
 }
 
 .gridPanel{
@@ -89,5 +106,6 @@ const displayedArtPieces = data.artPieces.slice(0, numberOfCards).map((art, inde
   grid-gap: $padding;
   margin: $padding;
 }
+
 
 </style>

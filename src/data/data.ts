@@ -10,6 +10,7 @@ const data = {
             tags: "activism, protest, collage, acrylic, newspaper, political, social commentary, abstract, contemporary",
             date: "2018",
             image: "/images/art/art1.jpg",
+            id:0,
         },
         {
             title: "Whispers of Serendipity",
@@ -18,6 +19,7 @@ const data = {
             tags: "serendipity, synchronicity, abstract, encaustic, wax, texture, layers, subtle, spiritual, connection",
             date: "2020",
             image: "/images/art/art2.jpg",
+            id:1,
         },
         {
             title: "Empowered Fragments",
@@ -26,6 +28,7 @@ const data = {
             tags: "empowerment, collage, mixed media, texture, abstract, feminist, resilience, narrative, fragments",
             date: "2015",
             image: "/images/art/art3.jpg",
+            id:2,
         },
         {
             title: "Silent March",
@@ -34,6 +37,7 @@ const data = {
             tags: "protest, activism, abstract, acrylic, texture, impasto, vertical, solidarity, contemporary, minimal",
             date: "2019",
             image: "/images/art/art4.jpg",
+            id:3,
         },
         {
             title: "Synchronous Bloom",
@@ -42,6 +46,7 @@ const data = {
             tags: "synchronicity, serendipity, encaustic, wax, botanicals, mixed media, abstract, nature, beauty, connection, texture",
             date: "2021",
             image: "/images/art/art5.jpg",
+            id:4,
         },
         {
             title: "Layered Histories",
@@ -50,6 +55,7 @@ const data = {
             tags: "history, memory, layers, texture, abstract, mixed media, acrylic, encaustic, found objects, narrative, palimpsest",
             date: "2016",
             image: "/images/art/art6.jpg",
+            id:5,
         },
         {
             title: "Rising Voice",
@@ -58,6 +64,7 @@ const data = {
             tags: "empowerment, protest, voice, abstract, collage, mixed media, acrylic, vibrant, contemporary, energy",
             date: "2022",
             image: "/images/art/art7.jpg",
+            id:6,
         },
         {
             title: "Chance Configuration",
@@ -66,14 +73,16 @@ const data = {
             tags: "serendipity, chance, abstract, encaustic, wax, found objects, metal, mixed media, texture, harmony, industrial",
             date: "2017",
             image: "/images/art/art8.jpg",
+            id:7,
         },
-        { // Start of new entries
+        {
             title: "Woven Resistance",
             desc: "Threads of resistance are literally integrated into the fabric of this piece, bound by layers of wax and gestural paint strokes. It speaks to the enduring strength found in collective action and shared struggle. Each thread contributes to the whole.",
             medium: "Acrylic, Fabric Scraps, and Encaustic on Panel",
             tags: "resistance, protest, empowerment, mixed media, fabric, encaustic, acrylic, texture, abstract, community, woven",
             date: "2014",
             image: "/images/art/art9.jpg",
+            id:8,
         },
         {
             title: "Echoes of Truth",
@@ -82,6 +91,7 @@ const data = {
             tags: "truth, history, activism, collage, mixed media, newspaper, photography, abstract, memory, political, layers",
             date: "2019",
             image: "/images/art/art10.jpg",
+            id:9,
         },
         {
             title: "Serendipity's Map",
@@ -90,6 +100,7 @@ const data = {
             tags: "serendipity, synchronicity, map, journey, abstract, encaustic, wax, ink transfer, lines, spiritual, navigation",
             date: "2023",
             image: "/images/art/art11.jpg",
+            id:10,
         },
         {
             title: "Unbound",
@@ -98,14 +109,16 @@ const data = {
             tags: "empowerment, liberation, freedom, abstract, acrylic, impasto, encaustic, texture, bold, energy, expressive",
             date: "2020",
             image: "/images/art/art12.jpg",
+            id:11,
         },
         {
-            title: "Fragmented Headlines II", // Adding II to differentiate if needed later
+            title: "Fragmented Headlines II",
             desc: "Building on earlier themes, news headlines are intentionally fractured and reassembled, creating a disjointed yet potent commentary on media narratives. Layers of wax selectively obscure and highlight, urging a closer, critical look at the information we consume.",
             medium: "Newspaper Collage, Acrylic, and Encaustic on Panel",
             tags: "protest, activism, media, social commentary, collage, newspaper, acrylic, encaustic, abstract, political, fragments, information",
             date: "2021",
             image: "/images/art/art13.jpg",
+            id:12,
         },
     ]
 }

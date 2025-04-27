@@ -7,5 +7,5 @@
 </template>
 
 <style scoped>
-  svg{fill: currentColor;}
+svg{fill: currentColor;}
 </style>

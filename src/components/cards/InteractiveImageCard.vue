@@ -83,13 +83,13 @@ function changeImage() {
 
 <style scoped lang="scss">
 
-@import "../assets/Library.scss";
+@import "../../assets/Library";
 
 .imageContainer {
   position: relative; // Establishes positioning context for children
   overflow: hidden; // Clips the absolutely positioned children
   opacity: 0;
-  animation: fadein 2s linear forwards;
+  animation: fadein 1s linear forwards;
   animation-delay: v-bind(animationDelay);
 }
 .image { // Common styles
@@ -120,16 +120,6 @@ function changeImage() {
 // Applied for one frame at the start of enter
 .cross-fade-enter-from {
   opacity: 0; // Start transparent
-}
-
-
-@keyframes fadein {
-  from{
-    opacity: 0;
-  }
-  to{
-    opacity: 1;
-  }
 }
 
 </style>
