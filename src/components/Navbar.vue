@@ -10,15 +10,10 @@ import SearchIcon from "@/assets/icons/SearchIcon.vue";
       <div class="line"></div>
       <div class="line"></div>
     </div>
-    <RouterLink to="/"><div class="title">MARGARET HUNT GALLERY</div></RouterLink>
+    <RouterLink to="/" class="titleWrap"><div class="title">MARGARET HUNT GALLERY</div></RouterLink>
     <div class="search"><SearchIcon/></div>
   </nav>
 
-<!--  <div class="links">-->
-<!--  <RouterLink to="/">Home</RouterLink>-->
-<!--  <RouterLink to="/event">Event</RouterLink>-->
-<!--  <RouterLink to="/about">Gallery</RouterLink>-->
-<!--</div>-->
 </template>
 
 <style scoped lang="scss">
@@ -27,18 +22,27 @@ import SearchIcon from "@/assets/icons/SearchIcon.vue";
 
 nav{
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(5,1fr);
   padding: $padding;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: white;
 }
 
 .header{
   text-align: center;
 }
 
-.title{
-  align-self: center;
-  text-align: center;
+.titleWrap{
   cursor: pointer;
+  grid-column: span 3;
+  align-self: center;
+}
+
+.title{
+
+  text-align: center;
 }
 
 .navMenu{

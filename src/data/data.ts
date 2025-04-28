@@ -120,6 +120,20 @@ const data = {
             image: "/images/art/art13.jpg",
             id:12,
         },
-    ]
+    ],
+    event:{
+        name: "\"Retrospective\"",
+        time: "5 - 8pm, May 9th 2025",
+        artist:"Margaret Hunt",
+        address:"221 B Gallery | 221 Nona Avenue",
+        location:"Trinidad, Colorado",
+        aboutShort:"Retrospective: A unique opportunity in Trinidad to trace the artistic path of renowned Colorado artist and leader, Margaret Hunt, from early explorations to current works.",
+        aboutMed:"Embark on a visual journey with Retrospective, an intimate exhibition showcasing the artistic evolution of Margaret Hunt. From formative pieces to recent explorations, this curated selection offers insight into the progression of her techniques, themes, and unique creative voice. Witness the development of an accomplished Colorado artist whose work has graced galleries and public spaces, presented here in Trinidad.",
+        aboutFull:"Immerse yourself in Retrospective, a comprehensive look at the dedicated artistic practice of Margaret Hunt. Presented in Trinidad, this unique exhibition charts a course through Hunt's creative evolution, offering a timeline of her visual explorations and accomplishments. While widely recognized for her leadership as Director of Colorado Creative Industries, Hunt has simultaneously maintained a distinct and evolving artistic voice, earning numerous awards and exhibiting in venues from Denver galleries to the Salt Lake City International Airport.\n\nRetrospective brings together selections that illustrate the shifts in her focus, the refinement of her technique, and the enduring inquiries within her work. Join us to experience the breadth of Margaret Hunt's artistic journey and gain a deeper appreciation for the creative spirit that fuels both her celebrated artwork and her impactful advocacy across Colorado."
+    },
+    artist:{
+        quote:"If we want our dreams to come true, the first thing we must do is wake up.",
+        aboutFull:"Discover the creative vision of Margaret Hunt, an accomplished and award-winning visual artist whose work offers unique perspectives. Her distinct artwork has been selected for prominent display in venues such as the Salt Lake City International Airport and has been featured in Denver galleries like Olio. Margaret's active artistic practice provides a deep, firsthand understanding of the creative journey, enriching her well-regarded efforts within the broader arts community. Engage with the insights of this multifaceted creator during our event."
+    }
 }
 export default data;

@@ -69,7 +69,7 @@ function changeImage() {
 </script>
 
 <template>
-  <div class="imageContainer" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
+  <div class="imageContainer">
     <div class="image current"></div>
     <transition name="cross-fade">
       <div

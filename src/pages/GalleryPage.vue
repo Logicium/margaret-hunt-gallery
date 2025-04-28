@@ -153,7 +153,7 @@ onBeforeUnmount(() => {
 .galleryGrid{
   display: grid;
   grid-gap: $padding;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: 3fr 2fr;
   position: relative;
 }
 

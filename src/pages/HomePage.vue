@@ -102,7 +102,7 @@ const displayedArtPieces = data.artPieces.slice(0, numberOfCards).map((art, inde
 .gridPanel{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-rows: 1.5fr 1.5fr 2fr;
   grid-gap: $padding;
   margin: $padding;
 }
