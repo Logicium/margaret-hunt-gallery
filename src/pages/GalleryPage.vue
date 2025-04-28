@@ -123,7 +123,7 @@ onBeforeUnmount(() => {
               v-for="art in artPieces"
               :key="art.id"
               :data="art"
-              :ref="(el) => setArtCardRef(el, art.id)"
+              :ref="(el:any) => setArtCardRef(el, art.id)"
           />
         </div>
       </div>

@@ -3,7 +3,7 @@
 import {computed} from "vue";
 
 const props = defineProps({
-  data: { type: Object },
+  data: { type: Object , required:true},
 })
 
 const imageUrl = computed(()=> 'url("'+props.data.image+'")').value;

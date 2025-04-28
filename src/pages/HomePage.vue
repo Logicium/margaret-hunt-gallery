@@ -1,6 +1,5 @@
 <script setup lang="ts">
 
-
 import data from "../data/data.ts";
 import InteractiveImageCard from "@/components/cards/InteractiveImageCard.vue";
 import {computed} from "vue";
@@ -93,10 +92,6 @@ const displayedArtPieces = data.artPieces.slice(0, numberOfCards).map((art, inde
   animation: fadein 1s forwards;
   opacity: 0;
   animation-delay: 3.5s;
-}
-
-.icon{
-
 }
 
 .gridPanel{
