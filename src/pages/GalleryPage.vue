@@ -176,11 +176,13 @@ onBeforeUnmount(() => {
 .galleryInfo{
   display: grid;
   padding: $padding;
+  grid-template-rows: 1fr auto;
 }
 
 .galleryControls{
   display: flex;
   margin-top: auto;
+  padding-top: $padding;
 }
 
 </style>
