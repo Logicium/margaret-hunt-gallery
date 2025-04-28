@@ -21,6 +21,10 @@ big{
   font-size: $fontBig;
 }
 
+.med{
+  font-size: $fontMed;
+}
+
 .bold{
   font-weight: 600;
 }
@@ -33,6 +37,10 @@ big{
 
 .gap{
   margin-right: $padding;
+}
+
+.top{
+  margin-bottom: $padding;
 }
 
 .title{

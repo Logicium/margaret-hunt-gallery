@@ -3,7 +3,8 @@ import data from "@/data/data.ts";
 import GalleryCardBig from "@/components/cards/GalleryCardBig.vue";
 import GalleryCardSmall from "@/components/cards/GalleryCardSmall.vue";
 import {ref, onMounted, onBeforeUnmount, nextTick, type Ref, computed} from "vue";
-import GalleryInfoCard from "@/components/cards/GalleryInfoCard.vue"; // Added necessary imports
+import GalleryInfoCard from "@/components/cards/GalleryInfoCard.vue";
+import FullArtPanel from "@/panels/FullArtPanel.vue"; // Added necessary imports
 
 interface ReactiveArtPiece {
   id: string | number;
@@ -24,6 +25,12 @@ const artPieces = ref<ReactiveArtPiece[]>(data.artPieces.map(art => {
 const activeArt = computed(() => {
   return artPieces.value.filter(art => art.isActive === true);
 });
+
+const showFullArt = ref(false);
+const showFullArtClick = function (){
+  showFullArt.value = !showFullArt.value;
+  console.log(showFullArt.value)
+}
 
 const scrollContainerRef = ref<HTMLDivElement | null>(null);
 const artCardElementRefs = ref<Map<string | number, HTMLElement>>(new Map());
@@ -108,9 +115,8 @@ onBeforeUnmount(() => {
 
 <template>
 
-
     <div class="galleryGrid">
-
+      <FullArtPanel v-if="activeArt.length>0" :data="activeArt" :show-full="showFullArt" :back-click="showFullArtClick"/>
       <div class="gridWrap" ref="scrollContainerRef">
         <div class="imageGrid">
           <GalleryCardBig
@@ -123,7 +129,7 @@ onBeforeUnmount(() => {
       </div>
 
       <div class="galleryInfo">
-        <GalleryInfoCard v-for="art in activeArt" :data="art"/>
+        <GalleryInfoCard v-for="art in activeArt" :data="art" :show-full-click="showFullArtClick"/>
         <div class="galleryControls">
           <GalleryCardSmall
               v-for="art in artPieces"
@@ -148,6 +154,7 @@ onBeforeUnmount(() => {
   display: grid;
   grid-gap: $padding;
   grid-template-rows: 2fr 1fr;
+  position: relative;
 }
 
 .gridWrap{
