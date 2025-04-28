@@ -2,10 +2,10 @@
 
 import ArrowIcon from "@/assets/icons/ArrowIcon.vue";
 import type {PropType, Ref} from "vue";
-import type {ReactiveArtPiece} from "@/data/interface.ts";
+import type {ArtPiece} from "@/data/art.interface.ts";
 
 const props = defineProps({
-  data: { type:Object as PropType<ReactiveArtPiece>, required:true },
+  data: { type:Object as PropType<ArtPiece>, required:true },
   showFullClick:{type:Function, required:true}
 });
 

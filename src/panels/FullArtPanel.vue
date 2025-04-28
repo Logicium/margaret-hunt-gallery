@@ -3,17 +3,18 @@
 import {computed, type PropType, ref, watch} from "vue";
 import CloseIcon from "@/assets/icons/CloseIcon.vue";
 import type {ReactiveArtPiece} from "@/data/interface.ts";
+import type {ArtPiece} from "@/data/art.interface.ts";
 
 const props = defineProps({
-  data: { type: Array<ReactiveArtPiece>, required:true},
+  data: { type: Array<ArtPiece>, required:true},
   showFull:{type: Boolean},
   backClick:{type: Function, required:true}
 });
 
-const updatedData = ref<ReactiveArtPiece>(props.data[0]);
+const updatedData = ref<ArtPiece>(props.data[0]);
 const imageUrl = ref( computed(()=> 'url("'+props.data[0].image+'")').value);
 
-watch(()=> props.data,(newValue:Array<ReactiveArtPiece>,oldValue)=>{
+watch(()=> props.data,(newValue:Array<ArtPiece>,oldValue)=>{
   if(newValue){
     updatedData.value = newValue[0];
     imageUrl.value = computed(()=> 'url("'+newValue[0].image+'")').value;
@@ -72,10 +73,6 @@ watch(()=> props.data,(newValue:Array<ReactiveArtPiece>,oldValue)=>{
   background-color: white;
   z-index: 1;
   padding: $padding;
-}
-
-.button{
-
 }
 
 .active{

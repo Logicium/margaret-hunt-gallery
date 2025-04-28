@@ -7,7 +7,6 @@ import GalleryInfoCard from "@/components/cards/GalleryInfoCard.vue";
 import FullArtPanel from "@/panels/FullArtPanel.vue";
 import type {ReactiveArtPiece} from "@/data/interface.ts"; // Added necessary imports
 
-
 const artPieces = ref<ReactiveArtPiece[]>(data.artPieces.map(art => {
   return {
     ...art,
@@ -47,9 +46,9 @@ const scrollToArt = (id: string | number) => {
 
   if (targetElement && container) {
     targetElement.scrollIntoView({
-      behavior: 'smooth', // Use smooth scrolling animation
-      inline: 'center',   // Horizontally align the element's center with the container's center
-      block: 'nearest'   // Vertically align to the nearest edge (less critical for horizontal scroll)
+      behavior: 'smooth',
+      inline: 'center',
+      block: 'nearest'
     });
     console.log(`Scrolling to element for ID: ${id}`);
   } else {
