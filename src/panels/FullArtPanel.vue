@@ -1,7 +1,6 @@
 <script setup lang="ts">
 
 import {computed, ref, watch} from "vue";
-import ArrowIcon from "@/assets/icons/ArrowIcon.vue";
 import CloseIcon from "@/assets/icons/CloseIcon.vue";
 
 const props = defineProps({

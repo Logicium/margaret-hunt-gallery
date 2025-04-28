@@ -1,7 +1,6 @@
 <script setup lang="ts">
 
 import ArrowIcon from "@/assets/icons/ArrowIcon.vue";
-import {ref} from "vue";
 
 const props = defineProps({
   data: { type: Object },
