@@ -4,15 +4,9 @@ import GalleryCardBig from "@/components/cards/GalleryCardBig.vue";
 import GalleryCardSmall from "@/components/cards/GalleryCardSmall.vue";
 import {ref, onMounted, onBeforeUnmount, nextTick, type Ref, computed} from "vue";
 import GalleryInfoCard from "@/components/cards/GalleryInfoCard.vue";
-import FullArtPanel from "@/panels/FullArtPanel.vue"; // Added necessary imports
+import FullArtPanel from "@/panels/FullArtPanel.vue";
+import type {ReactiveArtPiece} from "@/data/interface.ts"; // Added necessary imports
 
-interface ReactiveArtPiece {
-  id: string | number;
-  image: string;
-  title?: string;
-  desc?: string;
-  isActive: Ref<boolean>;
-}
 
 const artPieces = ref<ReactiveArtPiece[]>(data.artPieces.map(art => {
   return {
