@@ -72,7 +72,7 @@ watch(()=> props.data,(newValue:Array<ArtPiece>,oldValue)=>{
   transition: 1s;
   background-color: white;
   z-index: 1;
-  padding: $padding;
+  padding: 0 $padding $padding $padding;
 }
 
 .active{
