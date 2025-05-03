@@ -39,9 +39,10 @@ watch(()=>props.data.isActive,(newValue,oldValue)=>{
 
 .card{
   background-image: v-bind(imageUrl);
-  height: 60px;
-  width: 60px;
-  margin-bottom: $padding;
+  height: 45px;
+  width: 45px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .active,.cardWrap:hover{

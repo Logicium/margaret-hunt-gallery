@@ -7,13 +7,16 @@ import GalleryInfoCard from "@/components/cards/GalleryInfoCard.vue";
 import FullArtPanel from "@/panels/FullArtPanel.vue";
 import type {ReactiveArtPiece} from "@/data/interface.ts"; // Added necessary imports
 
-const artPieces = ref<ReactiveArtPiece[]>(data.artPieces.map(art => {
-  return {
-    ...art,
-    id: art.id || `generated-${Math.random()}`,
-    isActive: ref(false)
-  };
-}));
+const artPieces = ref<ReactiveArtPiece[]>(data.artPieces
+  .slice() // Create a copy of the array to avoid modifying the original
+  .sort((a, b) => parseInt(a.date) - parseInt(b.date)) // Sort from oldest to newest
+  .map(art => {
+    return {
+      ...art,
+      id: art.id || `generated-${Math.random()}`,
+      isActive: ref(false)
+    };
+  }));
 
 const activeArt = computed(() => {
   return artPieces.value.filter(art => art.isActive === true);
@@ -174,6 +177,8 @@ onBeforeUnmount(() => {
 
 .galleryControls{
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   margin-top: auto;
   padding-top: $padding;
 }

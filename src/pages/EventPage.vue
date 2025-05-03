@@ -99,7 +99,7 @@ import data from "../data/data.ts";
 }
 
 .image{
-  background-image: url("/images/art/art4.jpg");
+  background-image: url("/images/art/feminism.heic");
   aspect-ratio: 2/3;
   max-height: 100%;
   margin-left: auto;

@@ -4,7 +4,253 @@ const data = {
 
     artPieces: [
         {
-            title: "Art as Activism", // Kept your title
+            "title": "Dreamwork",
+            "desc": "Three whimsical houses stand under a watchful bird against a backdrop of musical scores and soft colors. Where do these moonlit, midnight dreams lead? This mixed media piece invites you into a narrative woven from symbols and textures.",
+            "medium": "Mixed Media",
+            "tags": "dream, surreal, mixed media, houses, bird, night, moon, stars, collage",
+            "date": "2019",
+            "image": "/images/art/dreamwork.heic",
+            "id": 0
+        },
+        {
+            "title": "Trilemma",
+            "desc": "An angel, a neutral face, and a devil emerge from a rich green encaustic background. Which voice guides the self? This self-portrait captures the internal conflict with stark simplicity.",
+            "medium": "Encaustic on Panel",
+            "tags": "portrait, self portrait, faces, angel, devil, green, abstract, encaustic",
+            "date": "2022",
+            "image": "/images/art/trilemma.heic",
+            "id": 1
+        },
+        {
+            "title": "Portrait of Nicole: The Day The Braces Came Off",
+            "desc": "A moment of youthful joy captured in oil, celebrating a milestone. Can a painting hold the warmth of a specific memory? This portrait immortalizes a bright smile and a fleeting moment in time.",
+            "medium": "Oil on Canvas",
+            "tags": "portrait, female, girl, smile, oil painting, realism",
+            "date": "1989",
+            "image": "/images/art/nicole1.heic",
+            "id": 2
+        },
+        {
+            "title": "Portrait of Nicole",
+            "desc": "A black and white photograph freezes a younger Nicole, braids framing an innocent gaze. How does the lens capture the essence of childhood? A timeless glimpse into the past.",
+            "medium": "Photograph",
+            "tags": "portrait, female, child, girl, braids, photograph, black and white",
+            "date": "1983",
+            "image": "/images/art/nicole2.heic",
+            "id": 3
+        },
+        {
+            "title": "Family Farm in Minnesota",
+            "desc": "Figures gather outside a starkly rendered farmhouse under a wide sky. What stories does this familiar scene hold? Painted with naive charm, it evokes nostalgia for rural life.",
+            "medium": "Oil on Canvas",
+            "tags": "landscape, farm, house, family, children, rural, Minnesota, oil painting",
+            "date": "1988",
+            "image": "/images/art/farm.heic",
+            "id": 4
+        },
+        {
+            "title": "An Apparition",
+            "desc": "Ghostly figures dance and swirl in a dramatic, dark red acrylic wash. Are they memories, dreams, or something else entirely? This piece explores the ethereal and the 'foreshadowing' of the unseen.",
+            "medium": "Acrylic",
+            "tags": "abstract, figurative, apparition, ghost, dancers, red, dark, acrylic",
+            "date": "2006",
+            "image": "/images/art/apparition.heic",
+            "id": 5
+        },
+        {
+            "title": "Self Portrait",
+            "desc": "Rendered in oil pastel, a profile emerges from shadow, contemplative and stark. What truths are revealed when the artist turns inward? An early exploration of self from 1971.",
+            "medium": "Oil Pastel on Arches",
+            "tags": "portrait, self portrait, profile, dark, shadow, oil pastel",
+            "date": "1971",
+            "image": "/images/art/.heic",
+            "id": 6
+        },
+        {
+            "title": "Meditation looking upward",
+            "desc": "Abstracted white leaves cluster against a bright blue sky, viewed from below. Can looking up change our perspective? This acrylic piece offers a moment of peaceful contemplation through nature's patterns.",
+            "medium": "Acrylic on panel",
+            "tags": "nature, tree, leaves, sky, blue, white, abstract, meditation, acrylic",
+            "date": "2000",
+            "image": "/images/art/meditation.heic",
+            "id": 7
+        },
+        {
+            "title": "Abundance",
+            "desc": "A vibrant encaustic collage layers figures, hands, and text like 'MATTER' and 'mental faculties'. How do we manifest abundance through the interplay of spirit and matter? A rich tapestry of ideas and textures.",
+            "medium": "Mixed media encaustic",
+            "tags": "collage, mixed media, encaustic, abstract, spiritual, hand, figure, text",
+            "date": "2015",
+            "image": "/images/art/abundance.heic",
+            "id": 8
+        },
+        {
+            "title": "Luminous Beings We Are",
+            "desc": "A sleeping polar bear rests peacefully against a patterned, collaged background with the titular phrase subtly inscribed. What inner light shines even in repose? This piece combines animal grace with a touch of the profound.",
+            "medium": "Collage on panel",
+            "tags": "collage, animal, polar bear, sleeping, pattern, text, black and white, gray",
+            "date": "2019",
+            "image": "/images/art/.heic",
+            "id": 9
+        },
+        {
+            "title": "The View from Above",
+            "desc": "A white bird soars over a collaged map, merging patterned landscapes with acrylic flight. Can miracles replace fear when we gain a higher perspective? An invitation to see the world anew.",
+            "medium": "Acrylic on Canvas",
+            "tags": "bird, flight, map, green, collage, pattern, acrylic, aerial view",
+            "date": "2020",
+            "image": "/images/art/.heic",
+            "id": 10
+        },
+        {
+            "title": "Intelligent Observation",
+            "desc": "A bold, graphic bird surveys a miniature cityscape, a heart floating nearby against a textured, newsprint background. What does the silent observer understand? A mixed-media commentary on watching the world.",
+            "medium": "Mixed media on panel",
+            "tags": "bird, crow, heart, houses, city, observation, collage, mixed media, black, pink",
+            "date": "2023",
+            "image": "/images/art/observation.heic",
+            "id": 11
+        },
+        {
+            "title": "Crow Chatter",
+            "desc": "Two stylized crows face each other, beaks nearly touching, amidst a backdrop of energetic patterns. What secrets are shared in the language of crows? A playful yet intimate mixed-media piece.",
+            "medium": "Mixed media on panel",
+            "tags": "birds, crows, pair, black and white, pattern, mixed media, chatter",
+            "date": "2023",
+            "image": "/images/art/chatter.heic",
+            "id": 12
+        },
+        {
+            "title": "Make Believe with Dad",
+            "desc": "A whimsical stack of patterned teacups dominates a vibrant red, textured background. Can simple objects evoke cherished memories? This piece, titled 'Tea time', hints at childhood nostalgia.",
+            "medium": "Mixed media on panel",
+            "tags": "teacups, stack, red, white, pattern, mixed media, tea time, childhood",
+            "date": "2024",
+            "image": "/images/art/believe.heic",
+            "id": 13
+        },
+        {
+            "title": "Posted letters from the past",
+            "desc": "A collage of vintage envelopes, stamps, and handwritten notes evokes a bygone era of correspondence. What stories linger in these forgotten messages? A nostalgic journey through 'posted letters from the past'.",
+            "medium": "Mixed media on panel",
+            "tags": "collage, letters, envelopes, stamps, mail, past, vintage, mixed media",
+            "date": "2024",
+            "image": "/images/art/letters.heic",
+            "id": 14
+        },
+        {
+            "title": "Crazy Cat Ladies Vote",
+            "desc": "This mixed media piece likely uses feline imagery and text to make a playful political statement. Who says cats and civic duty don't mix? A declaration that 'Crazy Cat Ladies Vote'.",
+            "medium": "Mixed media on panel",
+            "tags": "cats, vote, political, text, collage, mixed media",
+            "date": "2024",
+            "image": "/images/art/vote.heic",
+            "id": 15
+        },
+        {
+            "title": "The World Needs Love",
+            "desc": "Fragments of sheet music and the iconic lyric anchor this mixed media piece. Is this simple sentiment more urgent now than ever? An artistic affirmation that 'WHAT THE WORLD NEEDS NOW IS LOVE'.",
+            "medium": "Mixed media on panel",
+            "tags": "love, world, music sheet, text, collage, mixed media, song lyrics",
+            "date": "2024",
+            "image": "/images/art/love.heic",
+            "id": 16
+        },
+        {
+            "title": "Women's Rights are Human Rights",
+            "desc": "Collaged text and imagery likely combine to deliver a powerful message on equality. How can art amplify essential truths? This piece stands as a visual declaration: 'Women's Rights are Human Rights'.",
+            "medium": "Mixed Media",
+            "tags": "womens rights, human rights, political, social commentary, text, collage, mixed media",
+            "date": "2025",
+            "image": "/images/art/.heic",
+            "id": 17
+        },
+        {
+            "title": "Arise",
+            "desc": "The imperative 'ARISE' dominates, suggesting empowerment and action, likely focused on women's rights. What does it mean to rise up? A call to action rendered in mixed media.",
+            "medium": "Mixed Media",
+            "tags": "arise, womens rights, political, social commentary, text, collage, mixed media",
+            "date": "2025",
+            "image": "/images/art/arise.heic",
+            "id": 18
+        },
+        {
+            "title": "The Other 'F' Word Feminism",
+            "desc": "This piece directly confronts perceptions, reclaiming 'Feminism' through mixed media on paper. Can art challenge stigma and redefine loaded terms? Exploring 'The Other 'F' Word'.",
+            "medium": "Mixed media on paper",
+            "tags": "feminism, f word, political, social commentary, text, collage, mixed media",
+            "date": "2025",
+            "image": "/images/art/feminism.heic",
+            "id": 19
+        },
+        {
+            "title": "Stand Strong",
+            "desc": "A message of resilience conveyed through mixed media and collage. What gives us the power to 'Stand Strong' in challenging times? An affirmation of inner strength.",
+            "medium": "Mixed media/collage",
+            "tags": "stand strong, political, social commentary, text, collage, mixed media",
+            "date": "2025",
+            "image": "/images/art/stand.heic",
+            "id": 20
+        },
+        {
+            "title": "Light Amidst the Chaos",
+            "desc": "Abstract forms likely contrast darkness and illumination in this mixed media work. Where can we find 'Light Amidst the Chaos'? A visual exploration of hope and turmoil.",
+            "medium": "Mixed media",
+            "tags": "light, chaos, abstract, hope, mixed media",
+            "date": "2025",
+            "image": "/images/art/light.heic",
+            "id": 21
+        },
+        {
+            "title": "They have been 'disappeared'",
+            "desc": "Text fragments hint at themes of loss, government action, and perhaps time, possibly referencing political disappearances. How does art bear witness to the unspoken? A haunting mixed media piece.",
+            "medium": "Mixed media",
+            "tags": "disappeared, political, human rights, social commentary, text, collage, mixed media, queer",
+            "date": "2025",
+            "image": "/images/art/disappeared.heic",
+            "id": 22
+        },
+        {
+            "title": "tRUMP",
+            "desc": "This mixed media work directly references a political figure. How does contemporary art engage with polarizing leaders? A concise commentary.",
+            "medium": "Mixed media",
+            "tags": "trump, political, social commentary, text, collage, mixed media",
+            "date": "2025",
+            "image": "/images/art/trump.heic",
+            "id": 23
+        },
+        {
+            "title": "Tara",
+            "desc": "A Tibetan Thangka drawing depicting the 'Venerable Mother of Liberation'. How does traditional iconography convey spiritual concepts like 'Star' and liberation? A devotional piece rendered with intricate detail.",
+            "medium": "Tibetan Thangka drawing",
+            "tags": "Tara, Buddhism, deity, mother, liberation, star, thangka, drawing, spiritual, religious",
+            "date": "2001",
+            "image": "/images/art/.heic",
+            "id": 24
+        },
+        {
+            "title": "Sacred Geometry - Buddha",
+            "desc": "Intricate pencil work explores the intersection of Buddhist imagery and the universal patterns of 'Sacred Geometry'. Can mathematical forms reveal spiritual truths? A detailed study in pattern and faith.",
+            "medium": "Pencil on paper",
+            "tags": "sacred geometry, Buddha, Buddhism, drawing, pencil, spiritual, religious, pattern",
+            "date": "2000",
+            "image": "/images/art/.heic",
+            "id": 25
+        },
+        {
+            "title": "Dubrovnik",
+            "desc": "A pen, ink, and watercolor sketch captures the distinctive architecture of the Croatian city. Can a few lines and washes transport you to another place? A traveler's impression of Dubrovnik.",
+            "medium": "Pen, ink and watercolor on paper",
+            "tags": "Dubrovnik, Croatia, cityscape, architecture, travel, pen, ink, watercolor",
+            "date": "1979",
+            "image": "/images/art/.heic",
+            "id": 26
+        }
+    ],
+
+    demoData: [
+        {
+            title: "Art as Activism",
             desc: "Bold acrylics clash and merge with fragments of newspaper headlines, transforming current events into a visceral call for awareness. This piece asks, 'If art cannot speak truth to power, what force remains?' It's a dialogue between the artist's hand and the pulse of the world.",
             medium: "Acrylic and Newspaper Collage on Canvas",
             tags: "activism, protest, collage, acrylic, newspaper, political, social commentary, abstract, contemporary",
@@ -121,6 +367,7 @@ const data = {
             id:12,
         },
     ],
+
     event:{
         name: "\"Retrospective\"",
         time: "5 - 8pm, May 9th 2025",
