@@ -57,15 +57,15 @@ const data = {
             "image": "/images/art/apparition.heic",
             "id": 5
         },
-        {
-            "title": "Self Portrait",
-            "desc": "Rendered in oil pastel, a profile emerges from shadow, contemplative and stark. What truths are revealed when the artist turns inward? An early exploration of self from 1971.",
-            "medium": "Oil Pastel on Arches",
-            "tags": "portrait, self portrait, profile, dark, shadow, oil pastel",
-            "date": "1971",
-            "image": "/images/art/.heic",
-            "id": 6
-        },
+        // {
+        //     "title": "Self Portrait",
+        //     "desc": "Rendered in oil pastel, a profile emerges from shadow, contemplative and stark. What truths are revealed when the artist turns inward? An early exploration of self from 1971.",
+        //     "medium": "Oil Pastel on Arches",
+        //     "tags": "portrait, self portrait, profile, dark, shadow, oil pastel",
+        //     "date": "1971",
+        //     "image": "/images/art/portrait.png",
+        //     "id": 6
+        // },
         {
             "title": "Meditation looking upward",
             "desc": "Abstracted white leaves cluster against a bright blue sky, viewed from below. Can looking up change our perspective? This acrylic piece offers a moment of peaceful contemplation through nature's patterns.",
@@ -84,24 +84,24 @@ const data = {
             "image": "/images/art/abundance.heic",
             "id": 8
         },
-        {
-            "title": "Luminous Beings We Are",
-            "desc": "A sleeping polar bear rests peacefully against a patterned, collaged background with the titular phrase subtly inscribed. What inner light shines even in repose? This piece combines animal grace with a touch of the profound.",
-            "medium": "Collage on panel",
-            "tags": "collage, animal, polar bear, sleeping, pattern, text, black and white, gray",
-            "date": "2019",
-            "image": "/images/art/.heic",
-            "id": 9
-        },
-        {
-            "title": "The View from Above",
-            "desc": "A white bird soars over a collaged map, merging patterned landscapes with acrylic flight. Can miracles replace fear when we gain a higher perspective? An invitation to see the world anew.",
-            "medium": "Acrylic on Canvas",
-            "tags": "bird, flight, map, green, collage, pattern, acrylic, aerial view",
-            "date": "2020",
-            "image": "/images/art/.heic",
-            "id": 10
-        },
+        // {
+        //     "title": "Luminous Beings We Are",
+        //     "desc": "A sleeping polar bear rests peacefully against a patterned, collaged background with the titular phrase subtly inscribed. What inner light shines even in repose? This piece combines animal grace with a touch of the profound.",
+        //     "medium": "Collage on panel",
+        //     "tags": "collage, animal, polar bear, sleeping, pattern, text, black and white, gray",
+        //     "date": "2019",
+        //     "image": "/images/art/.heic",
+        //     "id": 9
+        // },
+        // {
+        //     "title": "The View from Above",
+        //     "desc": "A white bird soars over a collaged map, merging patterned landscapes with acrylic flight. Can miracles replace fear when we gain a higher perspective? An invitation to see the world anew.",
+        //     "medium": "Acrylic on Canvas",
+        //     "tags": "bird, flight, map, green, collage, pattern, acrylic, aerial view",
+        //     "date": "2020",
+        //     "image": "/images/art/.heic",
+        //     "id": 10
+        // },
         {
             "title": "Intelligent Observation",
             "desc": "A bold, graphic bird surveys a miniature cityscape, a heart floating nearby against a textured, newsprint background. What does the silent observer understand? A mixed-media commentary on watching the world.",
@@ -156,15 +156,15 @@ const data = {
             "image": "/images/art/love.heic",
             "id": 16
         },
-        {
-            "title": "Women's Rights are Human Rights",
-            "desc": "Collaged text and imagery likely combine to deliver a powerful message on equality. How can art amplify essential truths? This piece stands as a visual declaration: 'Women's Rights are Human Rights'.",
-            "medium": "Mixed Media",
-            "tags": "womens rights, human rights, political, social commentary, text, collage, mixed media",
-            "date": "2025",
-            "image": "/images/art/.heic",
-            "id": 17
-        },
+        // {
+        //     "title": "Women's Rights are Human Rights",
+        //     "desc": "Collaged text and imagery likely combine to deliver a powerful message on equality. How can art amplify essential truths? This piece stands as a visual declaration: 'Women's Rights are Human Rights'.",
+        //     "medium": "Mixed Media",
+        //     "tags": "womens rights, human rights, political, social commentary, text, collage, mixed media",
+        //     "date": "2025",
+        //     "image": "/images/art/.heic",
+        //     "id": 17
+        // },
         {
             "title": "Arise",
             "desc": "The imperative 'ARISE' dominates, suggesting empowerment and action, likely focused on women's rights. What does it mean to rise up? A call to action rendered in mixed media.",
@@ -219,33 +219,33 @@ const data = {
             "image": "/images/art/trump.heic",
             "id": 23
         },
-        {
-            "title": "Tara",
-            "desc": "A Tibetan Thangka drawing depicting the 'Venerable Mother of Liberation'. How does traditional iconography convey spiritual concepts like 'Star' and liberation? A devotional piece rendered with intricate detail.",
-            "medium": "Tibetan Thangka drawing",
-            "tags": "Tara, Buddhism, deity, mother, liberation, star, thangka, drawing, spiritual, religious",
-            "date": "2001",
-            "image": "/images/art/.heic",
-            "id": 24
-        },
-        {
-            "title": "Sacred Geometry - Buddha",
-            "desc": "Intricate pencil work explores the intersection of Buddhist imagery and the universal patterns of 'Sacred Geometry'. Can mathematical forms reveal spiritual truths? A detailed study in pattern and faith.",
-            "medium": "Pencil on paper",
-            "tags": "sacred geometry, Buddha, Buddhism, drawing, pencil, spiritual, religious, pattern",
-            "date": "2000",
-            "image": "/images/art/.heic",
-            "id": 25
-        },
-        {
-            "title": "Dubrovnik",
-            "desc": "A pen, ink, and watercolor sketch captures the distinctive architecture of the Croatian city. Can a few lines and washes transport you to another place? A traveler's impression of Dubrovnik.",
-            "medium": "Pen, ink and watercolor on paper",
-            "tags": "Dubrovnik, Croatia, cityscape, architecture, travel, pen, ink, watercolor",
-            "date": "1979",
-            "image": "/images/art/.heic",
-            "id": 26
-        }
+        // {
+        //     "title": "Tara",
+        //     "desc": "A Tibetan Thangka drawing depicting the 'Venerable Mother of Liberation'. How does traditional iconography convey spiritual concepts like 'Star' and liberation? A devotional piece rendered with intricate detail.",
+        //     "medium": "Tibetan Thangka drawing",
+        //     "tags": "Tara, Buddhism, deity, mother, liberation, star, thangka, drawing, spiritual, religious",
+        //     "date": "2001",
+        //     "image": "/images/art/.heic",
+        //     "id": 24
+        // },
+        // {
+        //     "title": "Sacred Geometry - Buddha",
+        //     "desc": "Intricate pencil work explores the intersection of Buddhist imagery and the universal patterns of 'Sacred Geometry'. Can mathematical forms reveal spiritual truths? A detailed study in pattern and faith.",
+        //     "medium": "Pencil on paper",
+        //     "tags": "sacred geometry, Buddha, Buddhism, drawing, pencil, spiritual, religious, pattern",
+        //     "date": "2000",
+        //     "image": "/images/art/.heic",
+        //     "id": 25
+        // },
+        // {
+        //     "title": "Dubrovnik",
+        //     "desc": "A pen, ink, and watercolor sketch captures the distinctive architecture of the Croatian city. Can a few lines and washes transport you to another place? A traveler's impression of Dubrovnik.",
+        //     "medium": "Pen, ink and watercolor on paper",
+        //     "tags": "Dubrovnik, Croatia, cityscape, architecture, travel, pen, ink, watercolor",
+        //     "date": "1979",
+        //     "image": "/images/art/.heic",
+        //     "id": 26
+        // }
     ],
 
     demoData: [

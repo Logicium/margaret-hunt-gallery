@@ -5,12 +5,9 @@ import {ref} from "vue";
 
 const props = defineProps({
   showNav: {type: Boolean, required: true},
-  showNavClick: {type: Function, required: true}
+  showNavClick: {type: Function, required: true},
+  resetNav: {type: Function, required: true}
 })
-
-const resetNav = function(){
-  props.showNavClick();
-}
 
 </script>
 
@@ -22,7 +19,7 @@ const resetNav = function(){
         <div class="line l2"></div>
       </div>
     </div>
-    <RouterLink to="/" class="titleWrap"><div class="title">MARGARET HUNT GALLERY</div></RouterLink>
+    <RouterLink to="/" class="titleWrap" @click="resetNav()"><div class="title">MARGARET HUNT GALLERY</div></RouterLink>
     <div class="search"><SearchIcon/></div>
 
     <div class="navMenu" :class="!showNav? 'hidden':''">

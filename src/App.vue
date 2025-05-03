@@ -8,12 +8,16 @@ const showNavClick = function (){
   showNav.value = !showNav.value;
 }
 
+const resetNav = function (){
+  showNav.value = false;
+}
+
 </script>
 
 <template>
 
   <div class="appGrid">
-    <Navbar :show-nav="showNav" :show-nav-click="showNavClick"/>
+    <Navbar :show-nav="showNav" :show-nav-click="showNavClick" :reset-nav="resetNav"/>
     <div class="appWrap" :class="{blur: showNav}">
       <RouterView />
     </div>
