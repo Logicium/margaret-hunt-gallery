@@ -60,7 +60,7 @@ const displayedArtPieces = data.artPieces.slice(0, numberOfCards).map((art, inde
         <div class="header">MARGARET HUNT "RETROSPECTIVE"</div>
         <div class="small">Trinidad, Colorado</div>
         <div class="small">221 B Gallery | 221 Nona Ave</div>
-        <div class="title">May 9th from 5-8pm</div>
+        <div class="title">5-8pm, May 9th 2025</div>
       </div>
       <div class="desc"></div>
       <div class="buttons">
@@ -100,6 +100,19 @@ const displayedArtPieces = data.artPieces.slice(0, numberOfCards).map((art, inde
   grid-template-rows: 1.5fr 1.5fr 2fr;
   grid-gap: $padding;
   margin: $padding;
+}
+
+@media (max-width: 480px) {
+  .gridPanel{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .gridPanel :nth-child(5),
+  .gridPanel :nth-child(6) {
+    display: none;
+  }
+
 }
 
 
