@@ -29,7 +29,7 @@ const props = defineProps({
         <RouterLink to="/gallery" class="big" @click="resetNav()">GALLERY</RouterLink>
       </div>
       <div class="disclosures">
-        <div class="small top">Margaret Hunt Gallery © 2025 </div>
+        <div class="small top">© 2025 Margaret Hunt Gallery </div>
         <div class="small top">Made by Apotome Labs</div>
       </div>
     </div>
@@ -66,7 +66,7 @@ nav{
   height: 100%;
   background-color: black;
   color: white;
-  width: 33%;
+  min-width: 33%;
   transform: translateX(0%);
 }
 

@@ -45,6 +45,7 @@ import data from "../data/data.ts";
   grid-template-columns: repeat(10,1fr);
   grid-template-rows: repeat(10,1fr);
   height: calc(100vh - 100px);
+  background-color: white;
 }
 
 .artistPanel{
@@ -58,10 +59,12 @@ import data from "../data/data.ts";
 
 .infoPanel{
   padding: $padding;
+  padding-top: $paddingXl;
+  padding-bottom: $paddingXl;
   display: grid;
   grid-template-columns: repeat(5,1fr);
   grid-template-rows: 1fr;
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   background-color: white;
   border-top: 2px solid #f2f2f2;
 }
@@ -79,7 +82,6 @@ import data from "../data/data.ts";
 .infoWrap,.infoWrapRev{
   grid-column: 2/6;
   grid-row: 2/10;
-  aspect-ratio: 2/3;
   max-height: 100%;
   display: flex;
   flex-direction: column;
@@ -88,28 +90,78 @@ import data from "../data/data.ts";
 .infoWrapRev{
   grid-column: 6/10;
   justify-self: end;
+  padding-left: $paddingXl;
 }
 
 .imageWrap,.imageWrapRev{
+  margin-left: $padding;
+  display: flex;
+  align-items: center;
   grid-column: 6/10;
   grid-row: 2/10;
 }
 .imageWrapRev{
   grid-column: 2/6;
+  margin-right: $padding;
+  margin-left: 0;
+  justify-content:start;
 }
 
 .image{
   background-image: url("/images/art/feminism.heic");
-  aspect-ratio: 2/3;
+  aspect-ratio: 9/16;
+  max-width: 100%;
   max-height: 100%;
+  width: 100%;
   margin-left: auto;
 }
 .image2{
   background-image: url("/images/artist/hunt1.webp");
-  aspect-ratio: 2/3;
-  max-height: 100%;
+  max-width: 100%;
   background-position: 20% 100%;
   margin: 0;
+}
+
+@media (max-width: 480px){
+  .infoWrap,.infoWrapRev{
+    grid-column: 2/10;
+    grid-row: 6/10;
+  }
+  .imageWrap,.imageWrapRev{
+    grid-column: 3/9;
+    grid-row: 2/6;
+    display: flex;
+    justify-content: center;
+  }
+  .imageWrapRev{
+    grid-row: 2/6
+  }
+  .infoWrapRev{
+    padding-top: $paddingXl;
+    padding-bottom: $paddingXl;
+    padding-left: 0;
+  }
+  .image{
+    margin: 0;
+  }
+  .infoPanel{
+    grid-template-columns: repeat(10,1fr);
+  }
+  .infoArea{
+    grid-column: 2/10;
+  }
+  .artistPanel{
+    grid-template-rows: auto auto;
+    padding-top: $paddingXl;
+  }
+
+  .panel{
+    grid-template-rows: auto auto;
+  }
+
+}
+@media (max-width: 481px) and (max-width: 768px){
+
 }
 
 </style>

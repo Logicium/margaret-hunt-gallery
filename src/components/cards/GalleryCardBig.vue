@@ -23,4 +23,10 @@ const imageUrl = computed(()=> 'url("'+props.data.image+'")').value;
   min-width: 66vw;
 }
 
+@media (max-width: 480px) {
+  .card{
+    min-width: 90%;
+  }
+}
+
 </style>
