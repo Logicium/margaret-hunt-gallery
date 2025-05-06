@@ -94,7 +94,7 @@ import data from "../data/data.ts";
 }
 
 .imageWrap,.imageWrapRev{
-  margin-left: $padding;
+  margin-left: $paddingLg;
   display: flex;
   align-items: center;
   grid-column: 6/10;
@@ -102,7 +102,7 @@ import data from "../data/data.ts";
 }
 .imageWrapRev{
   grid-column: 2/6;
-  margin-right: $padding;
+  margin-right: $paddingLg;
   margin-left: 0;
   justify-content:start;
 }
