@@ -128,13 +128,11 @@ import data from "../data/data.ts";
     grid-row: 6/10;
   }
   .imageWrap,.imageWrapRev{
+    margin: 0;
     grid-column: 3/9;
     grid-row: 2/6;
     display: flex;
     justify-content: center;
-  }
-  .imageWrapRev{
-    grid-row: 2/6
   }
   .infoWrapRev{
     padding-top: $paddingXl;
