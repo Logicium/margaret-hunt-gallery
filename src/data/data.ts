@@ -10,7 +10,8 @@ const data = {
             "tags": "dream, surreal, mixed media, houses, bird, night, moon, stars, collage",
             "date": "2019",
             "image": "/images/art/dreamwork.heic",
-            "id": 0
+            "id": 0,
+            "dimensions": "11\"x14\""
         },
         {
             "title": "Trilemma",
@@ -19,7 +20,8 @@ const data = {
             "tags": "portrait, self portrait, faces, angel, devil, green, abstract, encaustic",
             "date": "2022",
             "image": "/images/art/trilemma.heic",
-            "id": 1
+            "id": 1,
+            "dimensions": "10\"x10\""
         },
         {
             "title": "Portrait of Nicole: The Day The Braces Came Off",
@@ -28,7 +30,8 @@ const data = {
             "tags": "portrait, female, girl, smile, oil painting, realism",
             "date": "1989",
             "image": "/images/art/nicole1.heic",
-            "id": 2
+            "id": 2,
+            "dimensions": "20\"x16\""
         },
         {
             "title": "Portrait of Nicole",
@@ -37,7 +40,8 @@ const data = {
             "tags": "portrait, female, child, girl, braids, photograph, black and white",
             "date": "1983",
             "image": "/images/art/nicole2.heic",
-            "id": 3
+            "id": 3,
+            "dimensions": "16\"x20\""
         },
         {
             "title": "Family Farm in Minnesota",
@@ -46,7 +50,8 @@ const data = {
             "tags": "landscape, farm, house, family, children, rural, Minnesota, oil painting",
             "date": "1988",
             "image": "/images/art/farm.heic",
-            "id": 4
+            "id": 4,
+            "dimensions": "18\"x24\""
         },
         {
             "title": "An Apparition",
@@ -55,7 +60,8 @@ const data = {
             "tags": "abstract, figurative, apparition, ghost, dancers, red, dark, acrylic",
             "date": "2006",
             "image": "/images/art/apparition.heic",
-            "id": 5
+            "id": 5,
+            "dimensions": "24\"x24\""
         },
         // {
         //     "title": "Self Portrait",
@@ -73,7 +79,8 @@ const data = {
             "tags": "nature, tree, leaves, sky, blue, white, abstract, meditation, acrylic",
             "date": "2000",
             "image": "/images/art/meditation.heic",
-            "id": 7
+            "id": 7,
+            "dimensions": "24\"x24\""
         },
         {
             "title": "Abundance",
@@ -82,7 +89,8 @@ const data = {
             "tags": "collage, mixed media, encaustic, abstract, spiritual, hand, figure, text",
             "date": "2015",
             "image": "/images/art/abundance.heic",
-            "id": 8
+            "id": 8,
+            "dimensions": "10\"x8\""
         },
         // {
         //     "title": "Luminous Beings We Are",
@@ -109,7 +117,8 @@ const data = {
             "tags": "bird, crow, heart, houses, city, observation, collage, mixed media, black, pink",
             "date": "2023",
             "image": "/images/art/observation.heic",
-            "id": 11
+            "id": 11,
+            "dimensions": "12\"x9\""
         },
         {
             "title": "Crow Chatter",
@@ -118,7 +127,8 @@ const data = {
             "tags": "birds, crows, pair, black and white, pattern, mixed media, chatter",
             "date": "2023",
             "image": "/images/art/chatter.heic",
-            "id": 12
+            "id": 12,
+            "dimensions": "11.5\"x13.5\""
         },
         {
             "title": "Make Believe with Dad",
@@ -127,7 +137,8 @@ const data = {
             "tags": "teacups, stack, red, white, pattern, mixed media, tea time, childhood",
             "date": "2024",
             "image": "/images/art/believe.heic",
-            "id": 13
+            "id": 13,
+            "dimensions": "8\"x6\""
         },
         {
             "title": "Posted letters from the past",
@@ -136,7 +147,8 @@ const data = {
             "tags": "collage, letters, envelopes, stamps, mail, past, vintage, mixed media",
             "date": "2024",
             "image": "/images/art/letters.heic",
-            "id": 14
+            "id": 14,
+            "dimensions": "14\"x14\""
         },
         {
             "title": "Crazy Cat Ladies Vote",
@@ -145,7 +157,8 @@ const data = {
             "tags": "cats, vote, political, text, collage, mixed media",
             "date": "2024",
             "image": "/images/art/vote.heic",
-            "id": 15
+            "id": 15,
+            "dimensions": "6\"x8\""
         },
         {
             "title": "The World Needs Love",
@@ -154,7 +167,8 @@ const data = {
             "tags": "love, world, music sheet, text, collage, mixed media, song lyrics",
             "date": "2024",
             "image": "/images/art/love.heic",
-            "id": 16
+            "id": 16,
+            "dimensions": "6\"x6\""
         },
         // {
         //     "title": "Women's Rights are Human Rights",
@@ -172,7 +186,8 @@ const data = {
             "tags": "arise, womens rights, political, social commentary, text, collage, mixed media",
             "date": "2025",
             "image": "/images/art/arise.heic",
-            "id": 18
+            "id": 18,
+            "dimensions": "18\"x18\""
         },
         {
             "title": "The Other 'F' Word Feminism",
@@ -181,7 +196,8 @@ const data = {
             "tags": "feminism, f word, political, social commentary, text, collage, mixed media",
             "date": "2025",
             "image": "/images/art/feminism.heic",
-            "id": 19
+            "id": 19,
+            "dimensions": "12.5\"x8\""
         },
         {
             "title": "Stand Strong",
@@ -190,7 +206,8 @@ const data = {
             "tags": "stand strong, political, social commentary, text, collage, mixed media",
             "date": "2025",
             "image": "/images/art/stand.heic",
-            "id": 20
+            "id": 20,
+            "dimensions": "12.5\"x11.5\""
         },
         {
             "title": "Light Amidst the Chaos",
@@ -199,7 +216,8 @@ const data = {
             "tags": "light, chaos, abstract, hope, mixed media",
             "date": "2025",
             "image": "/images/art/light.heic",
-            "id": 21
+            "id": 21,
+            "dimensions": "10\"x10\""
         },
         {
             "title": "They have been 'disappeared'",
@@ -208,7 +226,8 @@ const data = {
             "tags": "disappeared, political, human rights, social commentary, text, collage, mixed media, queer",
             "date": "2025",
             "image": "/images/art/disappeared.heic",
-            "id": 22
+            "id": 22,
+            "dimensions": "14\"x14\""
         },
         {
             "title": "tRUMP",
@@ -217,8 +236,9 @@ const data = {
             "tags": "trump, political, social commentary, text, collage, mixed media",
             "date": "2025",
             "image": "/images/art/trump.heic",
-            "id": 23
-        },
+            "id": 23,
+            "dimensions": "11\"x14\""
+        }
         // {
         //     "title": "Tara",
         //     "desc": "A Tibetan Thangka drawing depicting the 'Venerable Mother of Liberation'. How does traditional iconography convey spiritual concepts like 'Star' and liberation? A devotional piece rendered with intricate detail.",

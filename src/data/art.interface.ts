@@ -8,5 +8,6 @@ export interface ArtPiece {
     date: string;
     tags: string;
     medium: string;
+    dimensions: string;
     isActive: boolean;
 }

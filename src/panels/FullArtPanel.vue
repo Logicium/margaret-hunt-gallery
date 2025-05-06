@@ -30,7 +30,7 @@ watch(()=> props.data,(newValue:Array<ArtPiece>,oldValue)=>{
           <div class="header">{{updatedData.title.toUpperCase()}}</div>
           <div class="med top">Margaret Hunt, {{updatedData.date}}</div>
           <div class="small">{{updatedData.medium}}</div>
-          <div class="small">68 x 160 inches</div>
+          <div class="small">{{updatedData.dimensions}}</div>
 
         </div>
         <div class="desc">
