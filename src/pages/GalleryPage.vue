@@ -125,6 +125,11 @@ onBeforeUnmount(() => {
       </div>
 
       <div class="galleryInfo">
+        <div class="emptyCard" v-if="activeArt.length===0">
+          <div class="title">T</div>
+          <div class="small">S</div>
+          <div class="button"></div>
+        </div>
         <GalleryInfoCard v-for="art in activeArt" :data="art" :show-full-click="showFullArtClick"/>
         <div class="galleryControls">
           <GalleryCardSmall
@@ -149,7 +154,7 @@ onBeforeUnmount(() => {
 .galleryGrid{
   display: grid;
   grid-gap: $padding;
-  grid-template-rows: 3fr 2fr;
+  grid-template-rows: 60vh 2fr;
   position: relative;
 }
 
@@ -167,6 +172,16 @@ onBeforeUnmount(() => {
   height: 100%;
   width: 100%;
   display: flex;
+}
+
+.emptyCard{
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  .button{
+    margin-top: auto;
+  }
 }
 
 .galleryInfo{

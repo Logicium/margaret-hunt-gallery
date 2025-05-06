@@ -8,5 +8,6 @@ export interface ReactiveArtPiece {
     date: string;
     tags: string;
     medium: string;
+    dimensions: string;
     isActive: Ref<boolean>;
 }
