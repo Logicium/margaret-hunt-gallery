@@ -30,8 +30,7 @@ watch(()=> props.data,(newValue:Array<ArtPiece>,oldValue)=>{
           <div class="header">{{updatedData.title.toUpperCase()}}</div>
           <div class="med top">Margaret Hunt, {{updatedData.date}}</div>
           <div class="small">{{updatedData.medium}}</div>
-          <div class="small">{{updatedData.dimensions}}</div>
-
+          <div class="small top">{{updatedData.dimensions}}</div>
         </div>
         <div class="desc">
           <div class="top">{{updatedData.desc}}</div>
@@ -61,12 +60,12 @@ watch(()=> props.data,(newValue:Array<ArtPiece>,oldValue)=>{
 }
 
 .panel{
-  position: absolute;
+  position: fixed;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   width: 100%;
-  height: 100%;
+  height: calc(100% - 100px);
   opacity: 0;
   visibility: hidden;
   transition: 1s;
@@ -84,5 +83,18 @@ watch(()=> props.data,(newValue:Array<ArtPiece>,oldValue)=>{
 .imageWrap{
   background-image: v-bind(imageUrl);
 }
+
+@media (max-width: 480px) {
+  .panel{
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+  }
+
+  .imageWrap{
+    grid-row: 1;
+    margin-bottom: $padding;
+  }
+}
+
 
 </style>
