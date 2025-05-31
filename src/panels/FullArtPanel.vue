@@ -65,7 +65,7 @@ watch(()=> props.data,(newValue:Array<ArtPiece>,oldValue)=>{
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr;
   width: 100%;
-  height: calc(100% - 100px);
+  height: calc(100vh - 100px);
   opacity: 0;
   visibility: hidden;
   transition: 1s;
