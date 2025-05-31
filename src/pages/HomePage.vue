@@ -105,7 +105,7 @@ const displayedArtPieces = data.artPieces.slice(0, numberOfCards).map((art, inde
 @media (max-width: 480px) {
   .gridPanel{
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
   }
 
   .gridPanel :nth-child(5),

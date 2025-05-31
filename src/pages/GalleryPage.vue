@@ -198,4 +198,10 @@ onBeforeUnmount(() => {
   padding-top: $padding;
 }
 
+@media (max-width: 480px) {
+  .galleryGrid{
+    grid-template-rows: 40vh auto;
+  }
+}
+
 </style>
